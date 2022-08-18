@@ -1,7 +1,7 @@
 .typing-txt-block {
     height: 70vh;
     display: block;
-    background-image: url("../images/bg-banner-01.jpg");
+    background-image: url("./images/marble.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
