@@ -1,0 +1,12 @@
+.typing-txt-block {
+    height: 70vh;
+    display: block;
+    background-image: url("../images/bg-banner-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .typing-txt-block.bg-animation {
+    -webkit-animation: bg-animation 20s ease-in-out infinite;
+    animation: bg-animation 20s ease-in-out infinite;
+  }
