@@ -7,11 +7,13 @@
     background-repeat: no-repeat;
   }
 
+  /* 控制背景圖片 .bg-animation 的動態效果 */
   .typing-txt-block.bg-animation {
     -webkit-animation: bg-animation 20s ease-in-out infinite;
     animation: bg-animation 20s ease-in-out infinite;
   }
 
+  /* 背景圖片上下位移 */
   @keyframes bg-animation {
     0% {
       background-position: top;
@@ -24,6 +26,7 @@
     }
   }
 
+  /* 利用 position 的觀念，將文字區塊垂直置中在圖片正中央 */
   .typing-txt-block .container h1 {
     position: absolute;
     left: 50%;
@@ -38,6 +41,7 @@
     color: transparent;
   }
 
+  /* 利用偽元素 ::before ，將要呈現的文字顯示以及輸入文字動態效果的 css 樣式寫入 */
   .typing-txt-block .container h1::before {
     content: attr(data-text);
     position: absolute;
@@ -53,6 +57,7 @@
     white-space: nowrap;
   }
 
+  /* type 的動畫設定：在 3 秒內將文字寬度以 18 格從 0% ~ 100% 顯示，只播放一次 */
   @keyframes type {
     0% {
       width: 0%;
@@ -62,6 +67,7 @@
     }
   }
 
+  /* blink 的動畫設定：每 0.5s 顯示輸入的閃爍線，並無限播放閃爍線顏色(從透明變為白色) */
   @keyframes blink {
     from {
       border-color: transparent;
