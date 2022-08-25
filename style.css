@@ -1,6 +1,7 @@
 .typing-txt-block {
     height: 30vh;
     display: block;
+    position: relative;
     background-image: url("./images/marble.png");
     background-size: cover;
     background-repeat: no-repeat;
