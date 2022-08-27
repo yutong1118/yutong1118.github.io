@@ -22,6 +22,7 @@ p{
     position: relative;
     padding-left: 10%;
     margin:0px;
+    line-height: 25px;
 }
 
 p:nth-child(1){
