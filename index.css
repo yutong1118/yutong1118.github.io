@@ -158,6 +158,10 @@ li {
   text-align: -webkit-match-parent;
 }
 
+li:hover{
+  background-color: white;
+}
+
 .menu ul a {
   font-family: "Verdana", sans-serif;
   color: white;
