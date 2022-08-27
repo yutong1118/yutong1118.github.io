@@ -126,3 +126,11 @@ li {
 .containerAbout .trigger.on {
   top: 40px;
 }
+
+.video{
+    position: relative;
+}
+
+iframe{
+    padding-left: 15px;
+}
