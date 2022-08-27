@@ -1,5 +1,5 @@
 .typing-txt-block {
-    height: 30vh;
+    height: 100vh;
     display: block;
     position: relative;
     background-image: url("./images/marble.png");
@@ -14,6 +14,7 @@
   }
 
   /* 背景圖片上下位移 */
+  /* 定義一個動畫用@keyframes 後面加名稱 */
   @keyframes bg-animation {
     0% {
       background-position: top;
@@ -44,6 +45,7 @@
   /* 利用偽元素 ::before ，將要呈現的文字顯示以及輸入文字動態效果的 css 樣式寫入 */
   .typing-txt-block .container h1::before {
     content: attr(data-text);
+    /* 一定要有content這個屬性，如果沒有content這個屬性，偽元素不會出現在畫面上 */
     position: absolute;
     top: 0px;
     left: 0px;
@@ -53,11 +55,14 @@
     overflow: hidden;
     border-right: 1px solid #0e0e0e;
     animation: type 3s steps(18), blink 0.5s infinite alternate;
+    /* type blink皆為動畫名稱 */
     -webkit-animation: type 3s steps(18), blink 0.5s infinite alternate;
     white-space: nowrap;
+    /* 空白屬性設置為nowrap時，兩個或多個white-spaces的每個序列將顯示為單個空白。除非明確指定，否則元素中的內容不會換行 */
   }
 
   /* type 的動畫設定：在 3 秒內將文字寬度以 18 格從 0% ~ 100% 顯示，只播放一次 */
+  /* %數可以代表時間的幾% */
   @keyframes type {
     0% {
       width: 0%;
