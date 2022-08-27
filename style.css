@@ -82,3 +82,46 @@
     }
   }
 
+
+.typing-txt-block .trigger {
+    width: 20px;
+    height: 20px;
+    right: 40px;
+}
+
+.typing-txt-block .trigger {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 33px;
+  right: 50px;
+  bottom: auto;
+  z-index: 999;
+  cursor: pointer;
+  transition: top 0.1s ease-in-out;
+}
+
+.typing-txt-block .trigger span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: rgb(0 0 0);
+  margin: 0 0 5px 0;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+}
+
+.typing-txt-block .trigger span:first-child {
+  top: 0;
+  left: 0;
+}
+
+.typing-txt-block .trigger span:nth-child(2) {
+  top: 10px;
+  left: 0;
+}
+
+.typing-txt-block .trigger span:nth-child(3) {
+  top: 20px;
+  left: 0;
+}
