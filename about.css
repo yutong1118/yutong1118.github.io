@@ -9,7 +9,6 @@ body{
     background-repeat: repeat;
 }
 
-
 img{
     height: 400px;
     width: 400px;
@@ -21,7 +20,13 @@ img{
 p{
     display: flex;
     position: relative;
+    padding-top: 12%;
     padding-left: 10%;
+}
+
+p:nth-child(1){
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .containerAbout .trigger {
