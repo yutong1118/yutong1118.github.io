@@ -160,6 +160,7 @@ li {
 
 li:hover{
   background-color: white;
+  color: black;
 }
 
 .menu ul a {
