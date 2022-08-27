@@ -167,3 +167,7 @@ li {
   line-height: 80px;
   text-decoration: none;
 }
+
+.container .trigger.on {
+  top: 40px;
+}
