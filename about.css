@@ -11,8 +11,14 @@ img{
     width: 400px;
     margin-left: 10%;
     margin-top: 10%;
+    float: left;
 }
 
+p{
+    display: flex;
+    position: relative;
+    padding-left: 10%;
+}
 
 .containerAbout .trigger {
     width: 20px;
@@ -20,7 +26,7 @@ img{
     right: 40px;
 }
 
-.containerAbout .nav .trigger {
+.containerAbout .trigger {
   width: 28px;
   height: 28px;
   position: absolute;
@@ -32,7 +38,7 @@ img{
   transition: top 0.1s ease-in-out;
 }
 
-.containerAbout .nav .trigger span {
+.containerAbout .trigger span {
   display: block;
   width: 100%;
   height: 4px;
@@ -42,17 +48,17 @@ img{
   position: absolute;
 }
 
-.containerAbout .nav .trigger span:first-child {
+.containerAbout .trigger span:first-child {
   top: 0;
   left: 0;
 }
 
-.containerAbout .nav .trigger span:nth-child(2) {
+.containerAbout .trigger span:nth-child(2) {
   top: 10px;
   left: 0;
 }
 
-.containerAbout .nav .trigger span:nth-child(3) {
+.containerAbout .trigger span:nth-child(3) {
   top: 20px;
   left: 0;
 }
