@@ -138,6 +138,11 @@
   z-index: 9;
 }
 
+.menu li:hover{
+  background-color: white;
+  color: black;
+}
+
 .menu ul {
   list-style-type: none; /*不顯示列標記*/
   padding: 0;
@@ -156,11 +161,6 @@ li {
   display: list-item;
   /* 會產生 block box，且內部的內容會變成 list item */
   text-align: -webkit-match-parent;
-}
-
-li:hover{
-  background-color: white;
-  color: black;
 }
 
 .menu ul a {
