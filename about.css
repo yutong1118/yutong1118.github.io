@@ -18,6 +18,14 @@ img{
     float: left;
 }
 
+img:nth-child(2){
+    height: 400px;
+    width: 400px;
+    margin-right: 10%;
+    margin-top: 10%;
+    float: right;
+}
+
 p{
     display: flex;
     position: relative;
