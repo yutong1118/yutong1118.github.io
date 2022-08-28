@@ -10,12 +10,22 @@ body{
     background-repeat: repeat;
 }
 
+.bio{
+  height: 600px;
+  width: 100%;
+}
+
 img{
     height: 400px;
     width: 400px;
     margin-left: 10%;
     margin-top: 10%;
     float: left;
+}
+
+.hobby{
+  height: 600px;
+  width: 100%;
 }
 
 img:nth-child(2){
