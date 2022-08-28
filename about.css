@@ -35,6 +35,9 @@ img[alt="coffee"]{
     margin-right: 10%;
     margin-top: 10%;
     float: right;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translatex(30%);
 }
 
 .interest2{
@@ -48,6 +51,14 @@ img[alt="outdoor"]{
   margin-left: 10%;
   margin-top: 10%;
   float: left;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translatex(-30%);
+}
+
+.active {
+  opacity: 1;
+  transform: translatex(0%);
 }
 
 p{
