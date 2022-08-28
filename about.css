@@ -37,6 +37,19 @@ img[alt="coffee"]{
     float: right;
 }
 
+.interest2{
+  height: 600px;
+  width: 100%;
+}
+
+img[alt="outdoor"]{
+  height: 400px;
+  width: 400px;
+  margin-left: 10%;
+  margin-top: 10%;
+  float: left;
+}
+
 p:nth-child(0){
     font-size: 25px;
     font-weight: 600;
