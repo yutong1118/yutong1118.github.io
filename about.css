@@ -37,20 +37,20 @@ img[alt="coffee"]{
     float: right;
 }
 
-p{
-    display: flex;
-    position: relative;
-    padding-left: 7%;
-    margin:0px;
-    line-height: 25px;
-    font-size: 20px;
-}
-
-p:nth-child(1){
+p:nth-child(odd){
     font-size: 25px;
     font-weight: 600;
     padding-top: 15%;
     margin:0px;
+}
+
+p:nth-child(even){
+  display: flex;
+  position: relative;
+  padding-left: 7%;
+  margin:0px;
+  line-height: 25px;
+  font-size: 20px;
 }
 
 .containerAbout .trigger {
