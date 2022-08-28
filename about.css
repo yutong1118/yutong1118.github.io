@@ -16,7 +16,7 @@ body{
   width: 100%;
 }
 
-img{
+img[alt="yt's pic"]{
     height: 400px;
     width: 400px;
     margin-left: 10%;
