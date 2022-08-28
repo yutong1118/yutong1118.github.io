@@ -29,36 +29,22 @@ img{
   width: 100%;
 }
 
-.hobby:hover img[alt="coffee"]{
+img[alt="coffee"]{
     height: 400px;
     width: 400px;
     margin-right: 10%;
     margin-top: 10%;
     float: right;
-    -webkit-animation: fadeinout 5s linear forwards;
-    animation: fadeinout 5s linear forwards;
 }
 
-@-webkit-keyframes fadeinout {
-  0%{ opacity: 0; }
-  50% { opacity: 0.5; }
-  100% { opacity: 1; }
-}
-
-@keyframes fadeinout {
-  0%{ opacity:0; }
-  50% { opacity: 0.5; }
-  100% { opacity: 1; }
-}
-
-p:nth-child(odd){
+h3{
     font-size: 25px;
     font-weight: 600;
     padding-top: 15%;
     margin:0px;
 }
 
-p:nth-child(even){
+p{
   display: flex;
   position: relative;
   padding-left: 7%;
