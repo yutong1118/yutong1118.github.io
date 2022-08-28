@@ -37,14 +37,14 @@ img[alt="coffee"]{
     float: right;
 }
 
-h3{
+p:nth-child(odd){
     font-size: 25px;
     font-weight: 600;
     padding-top: 15%;
     margin:0px;
 }
 
-p{
+p:nth-child(even){
   display: flex;
   position: relative;
   padding-left: 7%;
