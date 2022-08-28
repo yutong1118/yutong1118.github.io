@@ -35,6 +35,20 @@ img[alt="coffee"]{
     margin-right: 10%;
     margin-top: 10%;
     float: right;
+    -webkit-animation: fadeinout 5s linear forwards;
+    animation: fadeinout 5s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%{ opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%{ opacity:0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
 }
 
 p:nth-child(odd){
@@ -145,3 +159,4 @@ li {
 .containerAbout .trigger.on {
   top: 40px;
 }
+
