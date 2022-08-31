@@ -16,7 +16,7 @@ body{
   width: 100%;
 }
 
-.bioP{
+.p{
   display: flex;
   position: relative;
   padding-left: 7%;
