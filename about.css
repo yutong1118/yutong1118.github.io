@@ -27,9 +27,8 @@ img[alt="yt's pic"]{
 .interest{
   height: 600px;
   width: 100%;
-  background-image: url("./images/purpleMarble.png");
+  background-image: url("./images/marble.png");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 img[alt="coffee"]{
