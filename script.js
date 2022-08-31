@@ -12,7 +12,9 @@ $(function () {
         $('.menu').fadeToggle(200);
     });
 
-    const slideImages = document.querySelectorAll(".slide-in");
+});
+
+const slideImages = document.querySelectorAll(".slide-in");
 
     function checkSlide(e) {
         console.log(e);
@@ -34,5 +36,3 @@ $(function () {
     } else {
         img.classList.remove('active');
     }
-
-});
