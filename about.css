@@ -52,7 +52,7 @@ img[alt="outdoor"]{
   float: left;
 }
 
-.bio.p{
+.bio .p{
   display: flex;
   position: relative;
   padding-left: 7%;
