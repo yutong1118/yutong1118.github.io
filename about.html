@@ -4,6 +4,28 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="about.css"/>
     <!-- rel="stylesheet" 引入的是CSS檔 href="style.css"引入的檔案位置 -->
+    <style>
+        .slide-in.active{
+        opacity: 1;
+        transform: translateX(0%) scale(1);
+        }
+
+        .align-left.slide-in{
+        transform: translateX(-30%);
+        scale: (0.95);
+        }
+
+        .slide-in{
+        opacity: 0;
+        transition: all .5s;
+        }
+
+        .align-left{
+        float: left;
+        margin-right: 20px;
+        }
+    </style>
+
   </head>
 
   <body>
