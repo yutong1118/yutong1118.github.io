@@ -26,7 +26,7 @@ body{
   font-size: 20px;
 } */
 
-img[alt="yt's pic"], img[alt="outdoor"]{
+img[alt="yt's pic"]{
     height: 400px;
     width: 400px;
     margin-left: 15%;
@@ -54,13 +54,13 @@ img[alt="coffee"]{
   width: 100%;
 }
 
-/* img[alt="outdoor"]{
+img[alt="outdoor"]{
   height: 400px;
   width: 400px;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: 10%;
   float: left;
-} */
+}
 
 .containerAbout .trigger {
     width: 20px;
