@@ -31,7 +31,7 @@ img[alt="yt's pic"]{
   background-size: cover;
 }
 
-.interest .h1{
+.interest.h1{
   margin: 0;
   padding-top: 13%;
   padding-left: 10%;
@@ -59,7 +59,7 @@ img[alt="outdoor"]{
   float: left;
 }
 
-.bio .p{
+.bio.p{
   display: flex;
   position: relative;
   padding-left: 7%;
