@@ -12,7 +12,7 @@ body{
 }
 
 .bio{
-  height: 600px;
+  height: 625px;
   width: 100%;
 }
 
@@ -25,7 +25,7 @@ img[alt="yt's pic"]{
 }
 
 .interest{
-  height: 600px;
+  height: 625px;
   width: 100%;
   background-image: url("./images/marble.png");
   background-size: cover;
@@ -40,7 +40,7 @@ img[alt="coffee"]{
 }
 
 .interest2{
-  height: 600px;
+  height: 625px;
   width: 100%;
 }
 
