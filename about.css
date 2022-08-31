@@ -16,15 +16,10 @@ body{
   width: 100%;
 }
 
-/* .p{
-  display: flex;
-  position: relative;
-  padding-left: 7%;
-  padding-top: 15%;
-  margin:0px;
+.bio .ul{
+  margin-left: 0 0 0 55%;
   line-height: 25px;
-  font-size: 20px;
-} */
+}
 
 img[alt="yt's pic"]{
     height: 400px;
