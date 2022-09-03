@@ -66,24 +66,26 @@ img[alt="yt's pic"]{
 @media screen and (max-width:500px) {
   .nav {
     background-color: rgba(220, 220, 220, 0.868);
-    height: 4vh;
+    height: 55px;
+    width: 95%;
     padding-right: 10%;
+    position: fixed;
   }
 
   .nav a {
-    padding: 20px 15px;
+    padding: 10px 30px;
     text-decoration: none;
     color: black;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     float: right;
-  }
+}
 
   .containerAbout .trigger {
     width: 28px;
     height: 28px;
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 50px;
     bottom: auto;
     z-index: 999;
