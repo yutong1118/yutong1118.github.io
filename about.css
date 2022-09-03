@@ -26,7 +26,6 @@ body{
 .nav a{
   padding: 10px 15px;
     text-decoration: none;
-    /* text-align: center; */
     color: black;
     font-weight: 600;
     float: right;
@@ -38,7 +37,7 @@ body{
 }
 
 .bio{
-  height: 575px;
+  height: 615px;
   width: 100%;
 }
 
@@ -63,22 +62,6 @@ img[alt="yt's pic"]{
   padding: 15% 0 0 18%;
   line-height: 2;
 }
-
-/* @media (max-width:1250px){
-  .bioText{
-    margin: 0;
-    font-size: 20px;
-    padding: 13% 0 0 55%;
-    line-height: 2;
-  }
-
-  .interestText{
-    margin: 0;
-    font-size: 20px;
-    padding: 15% 0 0 18%;
-    line-height: 2;
-  }
-} */
 
 @media screen and (max-width:500px) {
   .nav {
