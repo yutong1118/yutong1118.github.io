@@ -39,6 +39,12 @@ img[alt="coffee"]{
     float: right;
 }
 
+.p{
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
 .interest2{
   height: 625px;
   width: 100%;
