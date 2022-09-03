@@ -23,6 +23,5 @@
         }
     }
     }
-
     window.addEventListener("load", callbackFunc);
     window.addEventListener("scroll", callbackFunc);
