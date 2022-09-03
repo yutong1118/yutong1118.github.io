@@ -24,6 +24,13 @@ img[alt="yt's pic"]{
     float: left;
 }
 
+.bioText{
+  margin: 0;
+  font-size: 20px;
+  padding: 15% 0 0 55%;
+  line-height: 2;
+}
+
 .interest{
   height: 625px;
   width: 100%;
@@ -39,11 +46,11 @@ img[alt="coffee"]{
     float: right;
 }
 
-p{
+.interestText{
   margin: 0;
   font-size: 20px;
-  justify-content: center;
-  align-items: center;
+  padding: 15% 5% 0 0%;
+  line-height: 2;
 }
 
 .interest2{
