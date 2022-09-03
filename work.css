@@ -9,6 +9,13 @@ body{
     background-repeat: repeat;
 }
 
+.WorkTitle{
+    padding: 30 auto;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .containerWork .trigger {
     width: 20px;
     height: 20px;
