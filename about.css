@@ -24,7 +24,7 @@ body{
 .nav a{
   padding: 10px 15px;
     text-decoration: none;
-    text-align: center;
+    /* text-align: center; */
     color: black;
     font-weight: 600;
     float: right;
@@ -79,6 +79,33 @@ img[alt="yt's pic"]{
 } */
 
 @media (max-width:500px) {
+  .nav {
+    background-color: rgba(220, 220, 220, 0.868);
+    height: 4vh;
+    padding-right: 10%;
+  }
+
+  .nav a {
+    padding: 20px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+  }
+
+  .containerAbout .trigger {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    bottom: auto;
+    z-index: 999;
+    cursor: pointer;
+    transition: top 0.1s ease-in-out;
+  }
+
   .bioText {
     margin: 0;
     font-size: 20px;
