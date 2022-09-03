@@ -160,6 +160,8 @@ time {
   visibility: visible;
   opacity: 1;
   text-align: center;
+  font-size: 20px;
+  line-height: 30px
 }
 @media screen and (max-width: 900px) {
   .timeline ul li div {
