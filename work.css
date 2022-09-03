@@ -58,7 +58,7 @@ body{
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
+  background: gray;
 }
 
 .timeline ul li::after {
@@ -78,7 +78,7 @@ body{
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #F45B69;
+  background: #e49eb3f0;
 }
 
 .timeline ul li div::before {
@@ -97,7 +97,7 @@ body{
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
+  border-color: transparent #e49eb3f0 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
