@@ -12,7 +12,7 @@ body{
 }
 
 .nav{
-  background-color: gainsboro;
+  background-color: rgba(220, 220, 220, 0.868);
   height: 7vh;
   padding-right: 10%;
 }
@@ -27,12 +27,12 @@ body{
 }
 
 .nav a:hover{
-  background: rgb(249, 198, 206);
+  background: rgba(236, 199, 204, 0.952);
   color: black;
 }
 
 .bio{
-  height: 625px;
+  height: 575px;
   width: 100%;
 }
 
@@ -40,14 +40,14 @@ img[alt="yt's pic"]{
     height: 400px;
     width: 400px;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 8%;
     float: left;
 }
 
 .bioText{
   margin: 0;
   font-size: 20px;
-  padding: 15% 0 0 55%;
+  padding: 13% 0 0 55%;
   line-height: 2;
 }
 
@@ -96,7 +96,7 @@ img[alt="outdoor"]{
   width: 28px;
   height: 28px;
   position: absolute;
-  top: 33px;
+  top: 10px;
   right: 50px;
   bottom: auto;
   z-index: 999;
