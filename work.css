@@ -10,7 +10,7 @@ body{
 }
 
 .WorkTitle{
-    padding: 30 auto;
+    padding: 50px 0;
     font-size: 40px;
     font-weight: 600;
     text-align: center;
@@ -85,7 +85,7 @@ body{
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #e49eb3f0;
+  background: #edbfd2f2;
 }
 
 .timeline ul li div::before {
@@ -104,11 +104,11 @@ body{
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #e49eb3f0 transparent transparent;
+  border-color: transparent #edbfd2f2 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
-  left: -439px;
+  left: -470px;
 }
 
 .timeline ul li:nth-child(even) div::before {
@@ -123,7 +123,7 @@ body{
 }
 
 .timeline ul li.in-view::after {
-  background: #F45B69;
+  background: #edbfd2f2;
 }
 
 .timeline ul li div {
@@ -162,7 +162,7 @@ body{
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent #edbfd2f2 transparent transparent;
   }
 }
 
