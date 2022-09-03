@@ -1,4 +1,5 @@
-function isElementInViewport(el) {
+    // 判斷元素是否進入當前視窗函式
+    function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
     return (
         rect.top >= 0 &&
@@ -7,6 +8,10 @@ function isElementInViewport(el) {
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
     }
+
+
+    // 為視窗可見的列表添加in-view類
+    //測試在頁面加載時/向下滾動時是否可見
     var items = document.querySelectorAll(".timeline li");
 
     // code for the isElementInViewport function
