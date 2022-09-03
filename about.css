@@ -41,7 +41,7 @@ body{
   width: 100%;
 }
 
-img[alt="yt's pic"]{
+img[alt="yt's pic"], img[alt="outdoor"]{
     height: 400px;
     width: 400px;
     margin-left: 15%;
@@ -128,13 +128,13 @@ img[alt="coffee"]{
   width: 100%;
 }
 
-img[alt="outdoor"]{
+/* img[alt="outdoor"]{
   height: 400px;
   width: 400px;
   margin-left: 15%;
   margin-top: 10%;
   float: left;
-}
+} */
 
 .containerAbout .trigger {
     width: 20px;
