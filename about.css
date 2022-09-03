@@ -78,7 +78,7 @@ img[alt="yt's pic"]{
   }
 } */
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
   .nav {
     background-color: rgba(220, 220, 220, 0.868);
     height: 4vh;
