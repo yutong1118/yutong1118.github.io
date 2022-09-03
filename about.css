@@ -13,17 +13,17 @@ body{
 
 .nav{
   background-color: gainsboro;
-  margin-left: -38px;
+  height: 7vh;
+  padding-right: 10%;
 }
 
 .nav a{
-  padding: 14px 16px;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  font-size: 1.5em;
-  display: block;
-  float: left;
+  padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    float: right;
 }
 
 .nav a:hover{
