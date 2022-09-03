@@ -15,10 +15,12 @@ body{
     background-attachment: scroll;
 }
 
-.nav{
+.nav {
   background-color: rgba(220, 220, 220, 0.868);
   height: 7vh;
+  width: 95%;
   padding-right: 7%;
+  position: fixed;
 }
 
 .nav a{
