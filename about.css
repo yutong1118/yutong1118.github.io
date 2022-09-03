@@ -93,7 +93,7 @@ img[alt="yt's pic"], img[alt="outdoor"]{
     transition: top 0.1s ease-in-out;
   }
 
-  .bioText {
+  .bioText, .interest2Text {
     margin: 0;
     font-size: 20px;
     padding: 15% 0 0 65%;
@@ -127,14 +127,6 @@ img[alt="coffee"]{
   height: 625px;
   width: 100%;
 }
-
-/* img[alt="outdoor"]{
-  height: 400px;
-  width: 400px;
-  margin-left: 15%;
-  margin-top: 10%;
-  float: left;
-} */
 
 .containerAbout .trigger {
     width: 20px;
