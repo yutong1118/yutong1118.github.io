@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     margin:0px;
 }
@@ -14,7 +18,7 @@ body{
 .nav{
   background-color: rgba(220, 220, 220, 0.868);
   height: 7vh;
-  padding-right: 10%;
+  padding-right: 7%;
 }
 
 .nav a{
