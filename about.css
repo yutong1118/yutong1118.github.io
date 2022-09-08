@@ -52,14 +52,14 @@ img[alt="yt's pic"], img[alt="outdoor"]{
 .bioText, .interest2Text{
   margin: 0;
   font-size: 20px;
-  padding: 15% 0 0 55%;
+  padding: 15% 0 0 59%;
   line-height: 2;
 }
 
 .interestText{
   margin: 0;
   font-size: 20px;
-  padding: 15% 0 0 18%;
+  padding: 15% 0 0 15%;
   line-height: 2;
 }
 
@@ -187,7 +187,7 @@ li {
 
   .nav a {
     padding: 10px 10px;
-    margin-right: 35px;
+    margin-right: 30px;
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -217,7 +217,7 @@ li {
   .bioText, .interestText, .interest2Text {
     margin: 0;
     font-size: 18px;
-    padding: 0 0 0 23%;
+    padding: 0 0 0 25%;
     line-height: 2;
   }
 
