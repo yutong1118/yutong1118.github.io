@@ -237,11 +237,11 @@ li {
   }
 
   .containerAbout .trigger {
-    width: 25px;
-    height: 25px;
+    width: 27px;
+    height: 27px;
     position: absolute;
     top: 7px;
-    right: 40px;
+    right: 55px;
     bottom: auto;
     z-index: 999;
     cursor: pointer;
@@ -249,16 +249,16 @@ li {
   }
 
   img[alt="yt's pic"], img[alt="outdoor"], img[alt="coffee"]{
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
     margin: 0;
     padding: 70px 30% 20px 30%;
   }
 
   .bioText, .interestText, .interest2Text {
     margin: 0;
-    font-size: 18px;
-    padding: 0 0 0 25%;
+    font-size: 16px;
+    padding: 0 0 0 35%;
     line-height: 2;
   }
 
