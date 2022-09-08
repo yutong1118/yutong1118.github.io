@@ -66,46 +66,47 @@ img[alt="yt's pic"], img[alt="outdoor"]{
 @media screen and (max-width:500px) {
   .nav {
     background-color: rgba(220, 220, 220, 0.868);
-    height: 55px;
+    height: 40px;
     width: 95%;
     padding-right: 10%;
     position: fixed;
   }
 
   .nav a {
-    padding: 10px 30px;
+    padding: 10px 10px;
+    margin-right: 35px;
     text-decoration: none;
     color: black;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 15px;
     float: right;
-}
+  }
 
   .containerAbout .trigger {
-    width: 28px;
-    height: 28px;
+    width: 25px;
+    height: 25px;
     position: absolute;
-    top: 15px;
-    right: 50px;
+    top: 7px;
+    right: 40px;
     bottom: auto;
     z-index: 999;
     cursor: pointer;
     transition: top 0.1s ease-in-out;
   }
 
-  .bioText, .interest2Text {
+  img[alt="yt's pic"], img[alt="outdoor"], img[alt="coffee"]{
+    height: 200px;
+    width: 200px;
+    padding: 70px 150px 20px 150px;
+  }
+
+  .bioText, .interestText, .interest2Text {
     margin: 0;
     font-size: 20px;
-    padding: 15% 0 0 65%;
+    padding: 0 0 0 23%;
     line-height: 2;
   }
 
-  .interestText {
-    margin: 0;
-    font-size: 20px;
-    padding: 15% 0 0 12%;
-    line-height: 2;
-  }
 }
 
 .interest{
