@@ -211,12 +211,12 @@ li {
     height: 200px;
     width: 200px;
     margin: 0;
-    padding: 70px 150px 20px 150px;
+    padding: 70px 30% 20px 30%;
   }
 
   .bioText, .interestText, .interest2Text {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 0 0 23%;
     line-height: 2;
   }
